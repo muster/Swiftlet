@@ -2,6 +2,8 @@
 
 namespace Swiftlet;
 
+define('SWIFTLET', true);
+
 try {
 	chdir(dirname(__FILE__) . '/..');
 

@@ -2,6 +2,8 @@
 
 namespace Swiftlet;
 
+defined('SWIFTLET') or die('No direct script access');
+
 abstract class Model implements Interfaces\Model
 {
 	protected

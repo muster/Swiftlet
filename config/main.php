@@ -1,4 +1,5 @@
 <?php
+defined('SWIFTLET') or die('No direct script access');
 
 $app->setConfig('siteName', 'Swiftlet');
 

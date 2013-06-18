@@ -2,6 +2,8 @@
 
 namespace Swiftlet\Controllers;
 
+defined('SWIFTLET') or die('No direct script access');
+
 class Error404 extends \Swiftlet\Controller
 {
 	protected

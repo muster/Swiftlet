@@ -2,6 +2,8 @@
 
 namespace Swiftlet;
 
+defined('SWIFTLET') or die('No direct script access');
+
 class App implements Interfaces\App
 {
 	protected

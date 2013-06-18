@@ -2,6 +2,8 @@
 
 namespace Swiftlet\Plugins;
 
+defined('SWIFTLET') or die('No direct script access');
+
 class Example extends \Swiftlet\Plugin
 {
 	/**

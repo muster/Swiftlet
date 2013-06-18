@@ -2,6 +2,8 @@
 
 namespace Swiftlet\Interfaces;
 
+defined('SWIFTLET') or die('No direct script access');
+
 interface App
 {
 	public function run();

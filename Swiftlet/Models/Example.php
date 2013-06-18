@@ -2,6 +2,8 @@
 
 namespace Swiftlet\Models;
 
+defined('SWIFTLET') or die('No direct script access');
+
 class Example extends \Swiftlet\Model
 {
 	/**

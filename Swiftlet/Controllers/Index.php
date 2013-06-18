@@ -2,6 +2,8 @@
 
 namespace Swiftlet\Controllers;
 
+defined('SWIFTLET') or die('No direct script access');
+
 class Index extends \Swiftlet\Controller
 {
 	protected

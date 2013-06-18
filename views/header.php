@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php defined('SWIFTLET') or die('No direct script access') ?><!DOCTYPE html>
 
 <html>
 	<head>
