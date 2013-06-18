@@ -135,7 +135,7 @@ class App implements Interfaces\App
 	/**
 	 * Set a configuration value
 	 * @param string $variable
-	 * @param mixed
+	 * @param mixed $value
 	 */
 	public function setConfig($variable, $value)
 	{
@@ -249,6 +249,8 @@ class App implements Interfaces\App
 	 * @param string $string
 	 * @param string $file
 	 * @param int $line
+     *
+     * @throws \Exception
 	 */
 	public function error($number, $string, $file, $line)
 	{
